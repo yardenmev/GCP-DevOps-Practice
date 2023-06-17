@@ -1,10 +1,10 @@
-From python:3.8-slim-buster
+FROM python:3.8-slim-buster
 
 WORKDIR /app
 
-COPY requirments.txt requirments.txt 
-RUN pip3 install -r requirments.txt 
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
 
-copy . . 
+COPY . .
 
-CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0."]
+CMD ["python3", "-m" , "flask", "run", "--host=0.0.0.0"]
