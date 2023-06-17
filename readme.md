@@ -1,6 +1,6 @@
 # GCP Project README
 
-This README document provides an overview of a project that demonstrates working with Google Cloud Platform (GCP). The project involves setting up a GKE cluster, developing a simple Flask app, creating a Dockerfile for the app, and implementing a CI/CD pipeline using Cloud Build. Additionally, two separate environments, namely production and development, are created within the GKE cluster.
+This README document provides an overview of a project that demonstrates working with Google Cloud Platform (GCP). The project involves setting up a GKE cluster, developing a simple Flask app, creating a Dockerfile for the app, and implementing a CI/CD pipeline using Cloud Build and GCR . Additionally, two separate environments, namely production and development, are created within the GKE cluster.
 
 ## Project Overview
 
